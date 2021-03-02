@@ -1,18 +1,22 @@
 Package: instR
-Title: What the Package Does (One Line, Title Case)
+Title: Helper Functions for Institutional Research
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Patrick",
+           family = "Keller",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: This is a collection of functions that make getting from raw data to tables and figures faster, specifically geared toward Institutional Research.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/patdkeller/instR
 BugReports: https://github.com/patdkeller/instR/issues
+Depends: 
+    dplyr,
+    plotly,
+    tidyr,
+    DT
