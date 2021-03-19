@@ -6,7 +6,7 @@
 #' running smoothly and the risk of missing the mistake by throwing an error.
 #'
 #'
-#' @param .data
+#' @param .data your dataframe
 #' @param OtherDf another data frame that you are comparing records with
 #' @param columnInData the column in your original dataframe that will be the basis of the filter
 #' @param columnInOtherDf the corresponding column found in the dataframe that you are comparing to
