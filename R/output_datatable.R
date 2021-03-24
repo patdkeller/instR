@@ -9,5 +9,5 @@
 #' #output_datatable(df)
 output_datatable<-function(df){
 
-  DT::datatable(df,extensions='Buttons',rownames=FALSE,filter=c("top"),options=list(dom='Bfrtip',buttons=c('csv')))
+  DT::datatable(df,extensions='Buttons',rownames=FALSE,filter=c("top"),options=list(dom='Bfrtip',buttons=c('copy','csv','excel')))
 }
