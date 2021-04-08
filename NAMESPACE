@@ -2,6 +2,7 @@
 
 export(add_ay)
 export(add_degree_level)
+export(add_ftpt)
 export(add_numeric_grade)
 export(filter_not_in)
 export(output_datatable)
