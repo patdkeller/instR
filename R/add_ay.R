@@ -13,7 +13,7 @@ add_ay<-function(.data,term) {
   term<-rlang::ensym(term)
 
   .data%>%
-    dplyr::mutate(AY=ifelse(substr(!!term,4,4) %in% c("3","4"),
+    dplyr::mutate(AY=ifelse(substr(!!term,4,4) %in% c("2","3","4","9"),
                             paste0(substr(!!term,2,3),"-",as.numeric(substr(!!term,2,3))+1),
                             paste0(as.numeric(substr(!!term,2,3))-1,"-",as.numeric(substr(!!term,2,3)))))
 }
